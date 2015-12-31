@@ -1,0 +1,12 @@
+# Site settings
+email: drewrey@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+    The website of Drewrey Lupton: R developer, chess player,
+    and eater of tacos.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://drewrey.com" # the base hostname & protocol for your site
+twitter_username: chieftanbonobo
+github_username:  drewrey
+
+# Build settings
+markdown: kramdown
