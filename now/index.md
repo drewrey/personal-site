@@ -8,7 +8,7 @@ I live in Atlanta. I work in Chamblee for [Cvent][Cvent] at the intersection of 
 
 Some of my current interests include web scraping for popular tv shows, empirical studies of sets of N with avoided differences, the NHL, and knitting.
 
-I enjoy puzzles and boardgames. Crosswords, chess puzzles, etc. If you've got recommendations, please let me know -- I love to find new puzzles.
+I enjoy puzzles and boardgames. Crosswords, chess puzzles, etc. If you've got recommendations, please let me know.
 
 Last updated January 2016.
 
