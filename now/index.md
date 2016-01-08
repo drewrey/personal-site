@@ -6,7 +6,11 @@ permalink: /now/
 
 I live in Atlanta. I work in Chamblee for [Cvent][Cvent] at the intersection of software enginerring and analytics.
 
-Last updated December 2015.
+Some of my current interests include web scraping for popular tv shows, empirical studies of sets of N with avoided differences, and knitting.
+
+I enjoy puzzles and boardgames. Crosswords, chess puzzles, etc. If you've got recommendations, please let me know -- I love to find new puzzles.
+
+Last updated January 2016.
 
 In the spirit of Derek Sivers' [now page movement][now movement].
 
