@@ -9,10 +9,9 @@ I enjoy games.
 
 Some tools I use:
 
-- [RStudio][rstudio]
+- [python][python]
 - [coffee][coffee]
-- probably some others, too.
+- some others, too.
 
-
-[rstudio]: http://www.rstudio.com/products/rstudio/
+[python]: https://docs.python.org/3/
 [coffee]: http://en.wikipedia.org/wiki/Coffee
