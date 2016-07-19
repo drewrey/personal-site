@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "R for loops"
+date:   2016-07-19 00:50:34
+category: blog
+tags: R
+---
+
+In writing R `for` loops, prefer:
+
+{% highlight r %}
+for (i in some_list_or_vector) {
+  print(i)
+}
+{% endhighlight %}
+
+over:
+
+{% highlight r %}
+for (i in len(some_list_or_vector)) {
+  print(some_list_or_vector[[i]])
+}
+{% endhighlight %}
