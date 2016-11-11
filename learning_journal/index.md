@@ -41,7 +41,7 @@ This page is a collection of small things I've learned over time. I find it usef
 
 ---
 
-- `git log - -grep`
+- `git log --grep`
 
 
 [/]: # (2016 Sept 26)
@@ -78,7 +78,8 @@ This page is a collection of small things I've learned over time. I find it usef
         - PCA ranks components by how much each accounts for variance (so it can be used for dimensionality reduction), but ICA does not
     - see: sci-kit learn and pg. 561 of Hastie, Tibshirani, Friedman
 - how could i use this to get the filenames as output?
-    - `ls -lat *venues*.csv | awk '{print $10}' | xargs head -n 1 {} | grep "state"`
+    - ```ls -lat *venues*.csv | awk '{print $10}' | xargs head -n 1 {} | grep "state"```
+    - PS: use a for loop
 
 
 [/]: # (2016 Sept 7)
@@ -95,5 +96,5 @@ This page is a collection of small things I've learned over time. I find it usef
 
 - Kleene Star: `/*` or `([0-9]*)` (regex for “0” or “98765” or “”)
 - BNF: describe structure formally of, say, a postal e-mail address
-- strace: debug kernel-level activities (the zine from julia — jvns.ca)
-- use # in css to target media queries for accessing the screen element to determine display style
+- `strace`: debug kernel-level activities (the zine from julia — jvns.ca)
+- use `#` in css to target media queries for accessing the screen element to determine display style
