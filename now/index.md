@@ -4,7 +4,7 @@ title: now
 permalink: /now/
 ---
 
-I live in Atlanta. I work in Buckhead for [Cvent][Cvent] at the intersection of software enginerring and analytics.
+I live in Atlanta. I work in Buckhead for [Cvent][Cvent] at the intersection of software engineering and analytics.
 
 Some of my current interests include [react][react], continuous integration, and company knowledge transfer. I've been working with a friend on [an app][virgil] to discuss and annotate content (poetry, philosophy, etc) à la [genius][genius] – come contribute! During the #MARTAHackathon, I worked on a [web app][TrainWhistle] to send text messages for MARTA trains.
 
