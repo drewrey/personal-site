@@ -8,6 +8,10 @@ This page is a collection of small things I've learned over time. I find it usef
 
 
 
+[/]: # (2016 Dec 20)
+
+- Type "iter <return>" to insert a for loop in IntelliJ.
+
 [/]: # (2016 Nov 8)
 
 ---
