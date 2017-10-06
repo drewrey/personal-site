@@ -18,7 +18,4 @@ In the spirit of Derek Sivers' [now page movement][now movement].
 
 [Cvent]: http://www.cvent.com
 [react]: https://facebook.github.io/react
-[genius]: http://genius.com
-[TrainWhistle]: https://github.com/colbydehart/TrainWhistle
 [now movement]: http://www.sivers.org/now3
-[virgil]: https://github.com/michelmansour/virgil
