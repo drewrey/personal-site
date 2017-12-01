@@ -10,3 +10,6 @@ github_username:  drewrey
 
 # Build settings
 markdown: kramdown
+
+plugins:
+    - jemoji
