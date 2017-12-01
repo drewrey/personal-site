@@ -7,6 +7,12 @@ permalink: /learning_journal/
 This page is a collection of small things I've learned over time. I find it useful to peruse to reinforce learning.
 
 
+[/]: # (2017 Nov 30)
+
+- JSON uses double-quotes.
+
+
+---
 
 [/]: # (2016 Dec 20)
 
