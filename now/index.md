@@ -4,18 +4,21 @@ title: now
 permalink: /now/
 ---
 
-I live in Atlanta. I work in Buckhead for [Cvent][Cvent] at the intersection of software engineering and analytics.
+I live in Atlanta. I work in Buckhead for [Cvent][Cvent] at the intersection of software engineering and analytics. I
+recently began serving as a tech lead of a team, which has been a rewarding learning experience.
 
-Some of my current interests include [react][react], continuous integration, and company knowledge transfer. In 2017, I will be travelling to see how other cities operate day-to-day.
+I'm starting to put together my first tech talk -- on [CORS][CORS] and some related topics. Have any advice for that?
 
-I enjoy puzzles and boardgames. Crosswords, Tokaido, Innovation, etc.
+Some of my current interests include composting, local policy, and urbanism.
 
-Last updated December 2016.
+I'd like to play more tennis. Wanna?
+
+Last updated March 2018.
 
 In the spirit of Derek Sivers' [now page movement][now movement].
 
 
 
 [Cvent]: http://www.cvent.com
-[react]: https://facebook.github.io/react
+[CORS]: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 [now movement]: http://www.sivers.org/now3
