@@ -4,16 +4,14 @@ title: now
 permalink: /now/
 ---
 
-I live in Atlanta. I work downtown for [Opendoor][Opendoor] building tools for the real estate industry. We're using Go, React, and new-to-me transport layers (protocol buffers, gRPC, GraphQL). I'm excited to contribute to the future of our tech stack.
+I live in Atlanta. I'm working at a stealth startup founded by Atomic.VC. We're building a platform using Elixir/GraphQL/Next.js. Stay tuned for more details.
 
-Some of my current interests include microbobility, local policy, and urbanism.
+I recently learned how to make pizza dough! It's a delight to be roll the dough and create a pie, and they're quick to make, too! It's on my TODO list to write up this process.
 
-I'm delighted to be getting married this year.
-
-I'm not looking to start any long projects now, but if you'd like to get in touch for coffee, chess, or a racquet sport -- e-mail me!
+I'm not looking to start any long projects now, but if you'd like to get in touch for an outdoor walk or a virtual coffee/game -- e-mail me!
 
 
-Last updated March 2019.
+Last updated November 2020.
 
 In the spirit of Derek Sivers' [now page movement][now movement].
 
