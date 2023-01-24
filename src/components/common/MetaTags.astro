@@ -1,6 +1,5 @@
 ---
 import { AstroSeo } from '@astrolib/seo';
-import { GoogleAnalytics } from '@astrolib/analytics';
 import { getImage } from '@astrojs/image';
 
 import { SITE } from '~/config.mjs';
@@ -9,7 +8,6 @@ import { getCanonical, getAsset } from '~/utils/permalinks';
 import { getRelativeUrlByFilePath } from '~/utils/directories';
 
 import Fonts from '~/components/common/Fonts.astro';
-import SplitbeeAnalytics from './SplitbeeAnalytics.astro';
 
 export interface Props extends MetaSEO {
   dontUseTitleTemplate?: boolean;
@@ -72,11 +70,11 @@ const image =
             alt: ogTitle,
           },
         ]
-      : undefined,
+      : [],
     // site_name: 'SiteName',
   }}
   twitter={{
-    // handle: '@handle',
+    handle: '@drewreylupton',
     // site: '@site',
     cardType: image ? 'summary_large_image' : undefined,
   }}
@@ -85,10 +83,7 @@ const image =
 <Fonts />
 
 <!-- Google Site Verification -->
-{SITE.googleSiteVerificationId && <meta name="google-site-verification" content={SITE.googleSiteVerificationId} />}
-
-<!-- Google Analytics -->
-{SITE.googleAnalyticsId && <GoogleAnalytics id={String(SITE.googleAnalyticsId)} partytown={true} />}
+<!-- {SITE.googleSiteVerificationId && <meta name="google-site-verification" content={SITE.googleSiteVerificationId} />} -->
 
 <link rel="shortcut icon" href={getAsset('/favicon.ico')} />
 <link rel="icon" type="image/svg+xml" href={getAsset('/favicon.svg')} />

@@ -24,9 +24,6 @@ const CONFIG = {
     timeZone: 'UTC',
   }),
 
-  googleAnalyticsId: false, // or "G-XXXXXXXXXX",
-  googleSiteVerificationId: false,
-
   blog: {
     disabled: false,
     postsPerPage: 4,

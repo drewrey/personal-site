@@ -11,7 +11,6 @@ import Content from '~/components/widgets/Content.astro';
 import HighlightedPosts from '~/components/blog/HighlightedPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const meta = {
   title: SITE.title,
@@ -21,47 +20,32 @@ const meta = {
 ---
 
 <Layout {meta}>
-  <!-- Hero Widget ******************* -->
-
   <Hero
-    callToAction={{ text: 'Get template', href: 'https://github.com/onwidget/astrowind', icon: 'tabler:download' }}
+    callToAction={{ text: 'Have Fun', href: 'https://github.com/drewrey/personal-site', icon: 'tabler:download' }}
     callToAction2={{ text: 'Learn more', href: '#features' }}
-    image={{ src: import('~/assets/images/hero.png'), alt: 'AstroWind Hero Image' }}
+    image={{ src: import('~/assets/images/hero.png'), alt: 'Drewrey Hero Image' }}
   >
     <Fragment slot="title">
-      Your website with <span>Astro</span> + <span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      Your website with <span>Magic</span> + <span class="sm:whitespace-nowrap">Care</span>
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
         <span class="font-semibold underline decoration-wavy decoration-1 decoration-primary-600 underline-offset-2"
-          >AstroWind</span
-        > is a free, production-ready template to start your new website using <em>Astro</em> + <em>Tailwind CSS</em
-        >.</span
+          >Drewrey</span
+        > is ready to <em>rock</em> + <em>roll</em>.</span
       >
-      <span class="block mb-1 sm:hidden font-bold text-primary-600">AstroWind: Free template.</span> Suitable for Startups,
-      Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.
     </Fragment>
   </Hero>
 
-  <!-- Note Widget ******************* -->
-
-  <Note />
-
-  <!-- Features Widget *************** -->
+  <Note title="philosophy" text="pure" />
 
   <Features
     highlight="Features"
-    title="What you get with AstroWind"
+    title="What you get with Drewrey"
     subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
     items={[
       [
-        {
-          title: 'Astro + Tailwind CSS Integration',
-          description:
-            'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-          icon: 'tabler:brand-tailwind',
-        },
         {
           title: 'Ready-to-use Components',
           description:
@@ -98,8 +82,6 @@ const meta = {
     ]}
   />
 
-  <!-- Content Widget **************** -->
-
   <Content
     highlight="Inside template"
     title="And what's inside? ..."
@@ -126,8 +108,6 @@ const meta = {
       alt: 'Colorful Image',
     }}
   />
-
-  <!-- Content Widget **************** -->
 
   <Content
     isReversed
@@ -161,7 +141,7 @@ const meta = {
   <!-- Steps Widget ****************** -->
 
   <Steps
-    title="Get your dream website up and running in no time with AstroWind."
+    title="Get your dream website up and running in no time with Drewrey."
     items={[
       {
         title: 'Step 1: <span class="font-medium">Download</span>',
@@ -256,8 +236,6 @@ const meta = {
     ]}
   />
 
-  <!-- HighlightedPosts Widget ******* -->
-
   <HighlightedPosts
     title="Find out more content in our Blog"
     information={`The blog is used to display AstroWind documentation.
@@ -271,8 +249,6 @@ const meta = {
       'astrowind-template-in-depth.md',
     ]}
   />
-
-  <!-- FAQs Widget ******************* -->
 
   <FAQs
     title="Frequently Asked Questions"
@@ -316,33 +292,5 @@ const meta = {
     ]}
   />
 
-  <!-- Stats Widget ****************** -->
-
-  <Stats
-    items={[
-      { name: 'Downloads', value: '132K' },
-      { name: 'Stars', value: '24.8K' },
-      { name: 'Forks', value: '10.3K' },
-      { name: 'Users', value: '48.4K' },
-    ]}
-  />
-
-  <!-- CallToAction Widget *********** -->
-
-  <CallToAction
-    callToAction={{
-      text: 'Get template',
-      href: 'https://github.com/onwidget/astrowind',
-      icon: 'tabler:download',
-    }}
-  >
-    <Fragment slot="title">
-      Astro + <br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
-    </Fragment>
-
-    <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
-    </Fragment>
-  </CallToAction>
+  <Stats items={[{ name: 'Downloads', value: '132K' }]} />
 </Layout>
